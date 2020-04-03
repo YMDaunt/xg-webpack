@@ -1,0 +1,10 @@
+node_modules/
+manifest/
+mock/
+xingguang/
+trunk/
+videochat/
+gulp-disk/
+entry.json
+
+*.log

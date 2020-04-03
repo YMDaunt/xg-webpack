@@ -1,0 +1,12 @@
+<div id="app" v-cloak>
+    <!-- /* img path - "<%= imgPath %>" */ -->
+</div>
+
+<script>
+var gjShareParam = JSON.stringify({ // eslint-disable-line
+    title: '<%= shareTitle %>',
+    content: '<%= shareContent %>',
+    link: location.href,
+    imgLink: '${require("<%= imgPath %>/share.jpg")}' // eslint-disable-line
+})
+</script>
